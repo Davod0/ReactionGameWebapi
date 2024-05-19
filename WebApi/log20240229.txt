@@ -1,0 +1,322 @@
+2024-02-29 00:00:49.618 +01:00 [INF] Application is shutting down...
+2024-02-29 00:00:55.252 +01:00 [INF] Now listening on: http://localhost:5203
+2024-02-29 00:00:55.285 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 00:00:55.287 +01:00 [INF] Hosting environment: Development
+2024-02-29 00:00:55.288 +01:00 [INF] Content root path: C:\Users\user\Desktop\reactiongamewebapi-Davod0\WebApi
+2024-02-29 00:01:09.084 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 00:01:09.114 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:01:09.134 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:01:09.695 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:01:09.729 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 588.6529ms
+2024-02-29 00:01:09.733 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:01:09.740 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 657.7271ms
+2024-02-29 00:01:16.806 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/1 - -
+2024-02-29 00:01:16.819 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+WebApi.LogicController.GetHighscoreById (WebApi)
+WebApi.LogicController.GetHighscoresByPlayerName (WebApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-29 00:01:16.824 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/1 - - - 500 - text/plain;+charset=utf-8 18.1399ms
+2024-02-29 00:01:19.830 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores application/json 31
+2024-02-29 00:01:19.832 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:01:19.833 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:01:19.852 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:01:19.855 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 19.7536ms
+2024-02-29 00:01:19.857 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:01:19.858 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores application/json 31 - 200 - application/json;+charset=utf-8 28.5475ms
+2024-02-29 00:20:00.347 +01:00 [INF] Application is shutting down...
+2024-02-29 00:20:09.331 +01:00 [INF] Now listening on: http://localhost:5203
+2024-02-29 00:20:09.379 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 00:20:09.382 +01:00 [INF] Hosting environment: Development
+2024-02-29 00:20:09.384 +01:00 [INF] Content root path: C:\Users\user\Desktop\reactiongamewebapi-Davod0\WebApi
+2024-02-29 00:20:18.631 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 00:20:18.688 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:20:18.729 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:20:19.788 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:20:19.859 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 1120.1844ms
+2024-02-29 00:20:19.865 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:20:19.881 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 1255.0381ms
+2024-02-29 00:20:27.801 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/1 - -
+2024-02-29 00:20:27.815 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:20:27.833 +01:00 [INF] Route matched with {action = "GetHighscoreById", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreById(Int32) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:20:27.948 +01:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Highscore'.
+2024-02-29 00:20:27.953 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreById (WebApi) in 116.2535ms
+2024-02-29 00:20:27.956 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:20:27.959 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/1 - - - 200 - application/json;+charset=utf-8 158.3304ms
+2024-02-29 00:20:53.951 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/byName/Dave - -
+2024-02-29 00:20:53.955 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:20:53.967 +01:00 [INF] Route matched with {action = "GetHighscoresByPlayerName", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoresByPlayerName(System.String) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:20:54.069 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:20:54.072 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoresByPlayerName (WebApi) in 101.664ms
+2024-02-29 00:20:54.075 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:20:54.078 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/byName/Dave - - - 200 - application/json;+charset=utf-8 127.0443ms
+2024-02-29 00:21:01.501 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/5 - -
+2024-02-29 00:21:01.504 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:21:01.506 +01:00 [INF] Route matched with {action = "GetHighscoreById", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreById(Int32) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:21:01.525 +01:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Highscore'.
+2024-02-29 00:21:01.532 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreById (WebApi) in 14.4484ms
+2024-02-29 00:21:01.535 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:21:01.537 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/5 - - - 200 - application/json;+charset=utf-8 35.4218ms
+2024-02-29 00:21:17.521 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/2 - -
+2024-02-29 00:21:17.523 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:21:17.529 +01:00 [INF] Route matched with {action = "GetHighscoreById", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreById(Int32) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:21:17.542 +01:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Highscore'.
+2024-02-29 00:21:17.547 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreById (WebApi) in 8.6307ms
+2024-02-29 00:21:17.551 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:21:17.552 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/2 - - - 200 - application/json;+charset=utf-8 30.5769ms
+2024-02-29 00:21:34.161 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/byName/ShanBannan - -
+2024-02-29 00:21:34.164 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:21:34.165 +01:00 [INF] Route matched with {action = "GetHighscoresByPlayerName", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoresByPlayerName(System.String) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:21:34.172 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:21:34.175 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoresByPlayerName (WebApi) in 7.1314ms
+2024-02-29 00:21:34.179 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:21:34.181 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/byName/ShanBannan - - - 200 - application/json;+charset=utf-8 19.3491ms
+2024-02-29 00:23:42.025 +01:00 [INF] Application is shutting down...
+2024-02-29 00:23:50.059 +01:00 [INF] Now listening on: http://localhost:5203
+2024-02-29 00:23:50.111 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 00:23:50.114 +01:00 [INF] Hosting environment: Development
+2024-02-29 00:23:50.116 +01:00 [INF] Content root path: C:\Users\user\Desktop\reactiongamewebapi-Davod0\WebApi
+2024-02-29 00:23:56.692 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 00:23:56.743 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:23:56.778 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:23:57.842 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:23:57.908 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 1119.8907ms
+2024-02-29 00:23:57.914 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:23:57.927 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 1238.5368ms
+2024-02-29 00:27:42.961 +01:00 [INF] Application is shutting down...
+2024-02-29 00:27:48.652 +01:00 [INF] Now listening on: http://localhost:5203
+2024-02-29 00:27:48.697 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 00:27:48.700 +01:00 [INF] Hosting environment: Development
+2024-02-29 00:27:48.702 +01:00 [INF] Content root path: C:\Users\user\Desktop\reactiongamewebapi-Davod0\WebApi
+2024-02-29 00:27:53.980 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 00:27:54.033 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:27:54.067 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:27:55.120 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:27:55.187 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 1110.8245ms
+2024-02-29 00:27:55.194 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:27:55.208 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 1231.2109ms
+2024-02-29 00:29:17.904 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5203/highscores - -
+2024-02-29 00:29:17.908 +01:00 [INF] Executing endpoint 'WebApi.LogicController.DeleteAllHighscores (WebApi)'
+2024-02-29 00:29:17.921 +01:00 [INF] Route matched with {action = "DeleteAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:29:18.106 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-29 00:29:18.110 +01:00 [INF] Executed action WebApi.LogicController.DeleteAllHighscores (WebApi) in 184.7463ms
+2024-02-29 00:29:18.113 +01:00 [INF] Executed endpoint 'WebApi.LogicController.DeleteAllHighscores (WebApi)'
+2024-02-29 00:29:18.116 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5203/highscores - - - 200 - text/plain;+charset=utf-8 212.2422ms
+2024-02-29 00:29:33.997 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 00:29:34.005 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:29:34.008 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:29:34.090 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:29:34.093 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 81.4179ms
+2024-02-29 00:29:34.096 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:29:34.099 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 101.3425ms
+2024-02-29 00:29:44.533 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5203/highscores application/json 95
+2024-02-29 00:29:44.536 +01:00 [INF] Executing endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 00:29:44.548 +01:00 [INF] Route matched with {action = "PostHighscore", controller = "Logic"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostHighscore(WebApi.Highscore) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:29:44.612 +01:00 [INF] Executing CreatedResult, writing value of type 'System.String'.
+2024-02-29 00:29:44.617 +01:00 [INF] Executed action WebApi.LogicController.PostHighscore (WebApi) in 66.0529ms
+2024-02-29 00:29:44.621 +01:00 [INF] Executed endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 00:29:44.624 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5203/highscores application/json 95 - 201 - text/plain;+charset=utf-8 91.3457ms
+2024-02-29 00:29:59.859 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5203/highscores application/json 95
+2024-02-29 00:29:59.861 +01:00 [INF] Executing endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 00:29:59.863 +01:00 [INF] Route matched with {action = "PostHighscore", controller = "Logic"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostHighscore(WebApi.Highscore) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:29:59.880 +01:00 [INF] Executing CreatedResult, writing value of type 'System.String'.
+2024-02-29 00:29:59.883 +01:00 [INF] Executed action WebApi.LogicController.PostHighscore (WebApi) in 15.3602ms
+2024-02-29 00:29:59.886 +01:00 [INF] Executed endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 00:29:59.888 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5203/highscores application/json 95 - 201 - text/plain;+charset=utf-8 29.3206ms
+2024-02-29 00:30:04.673 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 00:30:04.677 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:30:04.681 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:30:04.689 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:30:04.694 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 6.2879ms
+2024-02-29 00:30:04.699 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 00:30:04.702 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 29.2450ms
+2024-02-29 00:30:24.855 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 00:30:24.861 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 00:30:24.870 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 00:30:24.888 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:30:24.891 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 16.8197ms
+2024-02-29 00:30:24.894 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 00:30:24.896 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 41.5737ms
+2024-02-29 00:30:28.860 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/2 - -
+2024-02-29 00:30:28.863 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:30:28.873 +01:00 [INF] Route matched with {action = "GetHighscoreById", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreById(Int32) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:30:28.927 +01:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Highscore'.
+2024-02-29 00:30:28.931 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreById (WebApi) in 53.729ms
+2024-02-29 00:30:28.934 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 00:30:28.936 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/2 - - - 200 - application/json;+charset=utf-8 76.7240ms
+2024-02-29 00:30:48.787 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/byName/ShanBannan - -
+2024-02-29 00:30:48.790 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:30:48.799 +01:00 [INF] Route matched with {action = "GetHighscoresByPlayerName", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoresByPlayerName(System.String) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:30:48.814 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 00:30:48.817 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoresByPlayerName (WebApi) in 13.315ms
+2024-02-29 00:30:48.819 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:30:48.823 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/byName/ShanBannan - - - 404 - text/plain;+charset=utf-8 35.1360ms
+2024-02-29 00:30:56.712 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/byName/Sara - -
+2024-02-29 00:30:56.714 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:30:56.749 +01:00 [INF] Route matched with {action = "GetHighscoresByPlayerName", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoresByPlayerName(System.String) on controller WebApi.LogicController (WebApi).
+2024-02-29 00:30:56.752 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 00:30:56.753 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoresByPlayerName (WebApi) in 3.3841ms
+2024-02-29 00:30:56.754 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 00:30:56.754 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/byName/Sara - - - 200 - application/json;+charset=utf-8 42.2330ms
+2024-02-29 00:34:04.361 +01:00 [INF] Application is shutting down...
+2024-02-29 01:03:20.499 +01:00 [INF] Now listening on: http://localhost:5203
+2024-02-29 01:03:20.544 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 01:03:20.547 +01:00 [INF] Hosting environment: Development
+2024-02-29 01:03:20.549 +01:00 [INF] Content root path: C:\Users\user\Desktop\reactiongamewebapi-Davod0\WebApi
+2024-02-29 01:03:54.333 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:03:54.395 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:03:54.438 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:03:55.459 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:03:55.520 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 1071.905ms
+2024-02-29 01:03:55.527 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:03:55.542 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 1213.3641ms
+2024-02-29 01:04:00.833 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:04:00.837 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:04:00.839 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:04:00.870 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:04:00.874 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 32.1572ms
+2024-02-29 01:04:00.876 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:04:00.879 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 45.1621ms
+2024-02-29 01:04:06.292 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/statistics - -
+2024-02-29 01:04:06.300 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreStatistics (WebApi)'
+2024-02-29 01:04:06.312 +01:00 [INF] Route matched with {action = "GetHighscoreStatistics", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreStatistics() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:04:06.512 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-29 01:04:06.524 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreStatistics (WebApi) in 208.984ms
+2024-02-29 01:04:06.527 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreStatistics (WebApi)'
+2024-02-29 01:04:06.529 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/statistics - - - 200 - application/json;+charset=utf-8 237.0549ms
+2024-02-29 01:11:16.930 +01:00 [INF] Application is shutting down...
+2024-02-29 01:11:29.254 +01:00 [INF] Now listening on: http://localhost:5203
+2024-02-29 01:11:29.305 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 01:11:29.308 +01:00 [INF] Hosting environment: Development
+2024-02-29 01:11:29.311 +01:00 [INF] Content root path: C:\Users\user\Desktop\reactiongamewebapi-Davod0\WebApi
+2024-02-29 01:11:52.517 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:11:52.575 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:11:52.614 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:11:53.597 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:11:53.662 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 1039.0991ms
+2024-02-29 01:11:53.666 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:11:53.678 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 1164.5449ms
+2024-02-29 01:12:08.640 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 01:12:08.646 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:12:08.647 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5203/highscores application/json;+charset=utf-8 -
+2024-02-29 01:12:08.650 +01:00 [INF] Executing endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 01:12:08.653 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:08.664 +01:00 [INF] Route matched with {action = "PostHighscore", controller = "Logic"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostHighscore(WebApi.Highscore) on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:08.718 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:12:08.724 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 65.3828ms
+2024-02-29 01:12:08.727 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:12:08.730 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 89.5995ms
+2024-02-29 01:12:08.917 +01:00 [INF] Executing CreatedResult, writing value of type 'System.String'.
+2024-02-29 01:12:08.922 +01:00 [INF] Executed action WebApi.LogicController.PostHighscore (WebApi) in 254.7063ms
+2024-02-29 01:12:08.925 +01:00 [INF] Executed endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 01:12:08.927 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5203/highscores application/json;+charset=utf-8 - - 201 - text/plain;+charset=utf-8 280.1528ms
+2024-02-29 01:12:18.418 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:12:18.420 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:12:18.422 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:18.429 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:12:18.434 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 8.3493ms
+2024-02-29 01:12:18.435 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:12:18.437 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 19.0015ms
+2024-02-29 01:12:31.253 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5203/highscores application/json;+charset=utf-8 -
+2024-02-29 01:12:31.255 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 01:12:31.256 +01:00 [INF] Executing endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 01:12:31.258 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:12:31.259 +01:00 [INF] Route matched with {action = "PostHighscore", controller = "Logic"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostHighscore(WebApi.Highscore) on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:31.261 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:31.268 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:12:31.272 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 5.3901ms
+2024-02-29 01:12:31.274 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:12:31.276 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 20.8856ms
+2024-02-29 01:12:31.278 +01:00 [INF] Executing CreatedResult, writing value of type 'System.String'.
+2024-02-29 01:12:31.280 +01:00 [INF] Executed action WebApi.LogicController.PostHighscore (WebApi) in 16.8545ms
+2024-02-29 01:12:31.283 +01:00 [INF] Executed endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 01:12:31.285 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5203/highscores application/json;+charset=utf-8 - - 201 - text/plain;+charset=utf-8 31.5985ms
+2024-02-29 01:12:38.819 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:12:38.829 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:12:38.832 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:38.836 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:12:38.839 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 5.661ms
+2024-02-29 01:12:38.842 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:12:38.844 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 24.6892ms
+2024-02-29 01:12:38.864 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 01:12:38.867 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:12:38.869 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:38.873 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:12:38.876 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 4.5008ms
+2024-02-29 01:12:38.877 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:12:38.881 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 16.7111ms
+2024-02-29 01:12:47.255 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:12:47.260 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:12:47.262 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:12:47.266 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:12:47.269 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 4.7057ms
+2024-02-29 01:12:47.272 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:12:47.274 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 18.7943ms
+2024-02-29 01:13:01.737 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5203/highscores application/json;+charset=utf-8 -
+2024-02-29 01:13:01.738 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 01:13:01.740 +01:00 [INF] Executing endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 01:13:01.741 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:13:01.742 +01:00 [INF] Route matched with {action = "PostHighscore", controller = "Logic"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostHighscore(WebApi.Highscore) on controller WebApi.LogicController (WebApi).
+2024-02-29 01:13:01.743 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:13:01.747 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:13:01.749 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 2.65ms
+2024-02-29 01:13:01.750 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:13:01.751 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 12.7983ms
+2024-02-29 01:13:01.774 +01:00 [INF] Executing CreatedResult, writing value of type 'System.String'.
+2024-02-29 01:13:01.780 +01:00 [INF] Executed action WebApi.LogicController.PostHighscore (WebApi) in 34.5674ms
+2024-02-29 01:13:01.784 +01:00 [INF] Executed endpoint 'WebApi.LogicController.PostHighscore (WebApi)'
+2024-02-29 01:13:01.786 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5203/highscores application/json;+charset=utf-8 - - 201 - text/plain;+charset=utf-8 49.5165ms
+2024-02-29 01:13:15.763 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:13:15.767 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:13:15.768 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:13:15.770 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:13:15.771 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 2.5103ms
+2024-02-29 01:13:15.773 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:13:15.775 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 12.7743ms
+2024-02-29 01:13:15.780 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 01:13:15.781 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:13:15.788 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:13:15.794 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:13:15.797 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 8.8185ms
+2024-02-29 01:13:15.799 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:13:15.800 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 20.8610ms
+2024-02-29 01:14:34.692 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores - -
+2024-02-29 01:14:34.695 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:14:34.697 +01:00 [INF] Route matched with {action = "GetAllHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:14:34.702 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:14:34.706 +01:00 [INF] Executed action WebApi.LogicController.GetAllHighscores (WebApi) in 4.7943ms
+2024-02-29 01:14:34.709 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetAllHighscores (WebApi)'
+2024-02-29 01:14:34.711 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores - - - 200 - application/json;+charset=utf-8 18.1803ms
+2024-02-29 01:14:43.773 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/top10 - -
+2024-02-29 01:14:43.779 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:14:43.779 +01:00 [INF] Route matched with {action = "GetTopTenHighscores", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopTenHighscores() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:14:43.783 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:14:43.786 +01:00 [INF] Executed action WebApi.LogicController.GetTopTenHighscores (WebApi) in 4.2194ms
+2024-02-29 01:14:43.789 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetTopTenHighscores (WebApi)'
+2024-02-29 01:14:43.791 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/top10 - - - 200 - application/json;+charset=utf-8 17.5669ms
+2024-02-29 01:14:47.920 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/2 - -
+2024-02-29 01:14:47.925 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 01:14:47.931 +01:00 [INF] Route matched with {action = "GetHighscoreById", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreById(Int32) on controller WebApi.LogicController (WebApi).
+2024-02-29 01:14:47.984 +01:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Highscore'.
+2024-02-29 01:14:47.986 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreById (WebApi) in 52.3983ms
+2024-02-29 01:14:47.988 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreById (WebApi)'
+2024-02-29 01:14:47.990 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/2 - - - 200 - application/json;+charset=utf-8 70.6116ms
+2024-02-29 01:14:51.673 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/byUserName/Sara - -
+2024-02-29 01:14:51.677 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 01:14:51.684 +01:00 [INF] Route matched with {action = "GetHighscoresByPlayerName", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoresByPlayerName(System.String) on controller WebApi.LogicController (WebApi).
+2024-02-29 01:14:51.695 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Highscore, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-29 01:14:51.699 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoresByPlayerName (WebApi) in 11.5067ms
+2024-02-29 01:14:51.701 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoresByPlayerName (WebApi)'
+2024-02-29 01:14:51.703 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/byUserName/Sara - - - 200 - application/json;+charset=utf-8 29.5682ms
+2024-02-29 01:14:55.666 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5203/highscores/statistics - -
+2024-02-29 01:14:55.667 +01:00 [INF] Executing endpoint 'WebApi.LogicController.GetHighscoreStatistics (WebApi)'
+2024-02-29 01:14:55.681 +01:00 [INF] Route matched with {action = "GetHighscoreStatistics", controller = "Logic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHighscoreStatistics() on controller WebApi.LogicController (WebApi).
+2024-02-29 01:14:55.799 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-29 01:14:55.814 +01:00 [INF] Executed action WebApi.LogicController.GetHighscoreStatistics (WebApi) in 130.586ms
+2024-02-29 01:14:55.817 +01:00 [INF] Executed endpoint 'WebApi.LogicController.GetHighscoreStatistics (WebApi)'
+2024-02-29 01:14:55.818 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5203/highscores/statistics - - - 200 - application/json;+charset=utf-8 152.6941ms

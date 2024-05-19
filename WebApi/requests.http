@@ -1,0 +1,39 @@
+
+POST  http://localhost:5203/highscores
+Content-Type: application/json
+
+{
+    "Id": 2,
+    "PlayerName": "Dave",
+    "Score": "2000",
+    "GameName": "Bad Game"
+}
+  
+####
+
+DELETE http://localhost:5203/highscores
+
+####
+
+GET  http://localhost:5203/highscores
+
+#####
+
+GET  http://localhost:5203/highscores/top10
+
+#####
+
+GET  http://localhost:5203/highscores/2
+
+
+####
+
+GET  http://localhost:5203/highscores/byUserName/Sara
+
+
+####
+
+GET  http://localhost:5203/highscores/statistics
+
+
+####
